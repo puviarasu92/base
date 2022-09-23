@@ -8,7 +8,7 @@ import pyspark
 from pyspark.sql import SparkSession
 from pyspark import SparkConf
 from pyspark.sql.functions import *
-from pyspark.sql.types import StructType,StructField, StringType
+from pyspark.sql.types import StructType,StructField,StringType
 from pyspark.sql.functions import col
 from pyspark.sql.functions import rand
 from pyspark import SparkConf, SparkContext, SQLContext
